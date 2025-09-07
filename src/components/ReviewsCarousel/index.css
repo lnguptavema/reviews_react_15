@@ -1,0 +1,49 @@
+li {
+  list-style-type: none;
+}
+h1 {
+  margin: 0px;
+  color: white;
+}
+.mainContainer {
+  height: 100vh;
+  text-align: center;
+  margin: 0px;
+  padding: 30px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+}
+.cardItem {
+  display: flex;
+  padding: 40px;
+}
+.miniCard {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.arrow {
+  width: 5vw;
+  height: 5vh;
+  cursor: pointer;
+  outline: none;
+}
+button {
+  background-color: transparent;
+  border: 0px;
+}
+@media (max-width: 767px) {
+  h1 {
+    text-align: center;
+     margin-left: 59px;
+  }
+  img {
+    width: 20vw;
+    height: 20vh;
+   
+  }
+  .description{
+    width: 45vw;
+  }
+}
