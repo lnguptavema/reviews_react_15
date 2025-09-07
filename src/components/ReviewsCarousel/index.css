@@ -2,8 +2,9 @@ li {
   list-style-type: none;
 }
 h1 {
-  margin: 0px;
+  margin: 30px;
   color: white;
+  text-align: center;
 }
 .mainContainer {
   height: 100vh;
@@ -33,17 +34,22 @@ button {
   background-color: transparent;
   border: 0px;
 }
+.description {
+  width: 50vw;
+}
 @media (max-width: 767px) {
   h1 {
     text-align: center;
-     margin-left: 59px;
+    margin-left: 59px;
   }
+.mainContainer{
+  height: 100%;
+}
   img {
     width: 20vw;
     height: 20vh;
-   
   }
-  .description{
+  .description {
     width: 45vw;
   }
 }

@@ -24,10 +24,11 @@ class ReviewsCarousel extends Component {
     const {count} = this.state
     return (
       <div className="mainContainer">
-        <h1>Reviews</h1>
         <div className="cardItem">
           <ul>
             <li>
+              <h1>Reviews</h1>
+
               <div className="miniCard">
                 <button data-testId="leftArrow" type="button">
                   <img
